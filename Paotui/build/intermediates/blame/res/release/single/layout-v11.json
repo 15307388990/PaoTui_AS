@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/release/layout-v11/notification_media_action.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/release/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/release/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    }
+]

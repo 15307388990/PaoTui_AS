@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/frame_loading.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/frame_loading.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_progress.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/shape_progress.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_btn_green_light.xml",
+        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_green_light.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_btn_blue.xml",
+        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_blue.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/tab_home_mine.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/tab_home_mine.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/mis_action_btn.xml",
+        "source": "/Users/luoming/.android/build-cache/6f275881b7ee106aded6b5092c168553892c9b3d/output/res/drawable/mis_action_btn.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/popup_bg.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/popup_bg.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/coupon_btn.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/coupon_btn.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/rab_t_btn.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/rab_t_btn.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/progress_horizontal.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/progress_horizontal.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/view_post_comment_bg.xml",
+        "source": "/Users/luoming/.android/build-cache/fb4796a390d7fd326ebfa7a71e70fe0a81a0c3b9/output/res/drawable/view_post_comment_bg.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_bg_white.xml",
+        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_bg_white.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/gathering_keyboard_backspace.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/gathering_keyboard_backspace.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/sidebar_background.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/sidebar_background.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/tab_home_btn.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/tab_home_btn.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/progressbar_horizontal.xml",
+        "source": "/Users/luoming/.android/build-cache/0cac6d149e229eebbfd5593485971ee9e3f3f1f0/output/res/drawable/progressbar_horizontal.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_btn_border_white.xml",
+        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_border_white.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/gathering_keyboard_dot.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/gathering_keyboard_dot.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/rab_top.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/rab_top.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/spacer_30.xml",
+        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/spacer_30.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_btn_next.xml",
+        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_next.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/cb_change.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/cb_change.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/luoming/.android/build-cache/50c8083436e323b4dc5afd1a8c8876e38d1ad348/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/luoming/.android/build-cache/50c8083436e323b4dc5afd1a8c8876e38d1ad348/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/luoming/.android/build-cache/50c8083436e323b4dc5afd1a8c8876e38d1ad348/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/luoming/.android/build-cache/50c8083436e323b4dc5afd1a8c8876e38d1ad348/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/luoming/.android/build-cache/50c8083436e323b4dc5afd1a8c8876e38d1ad348/output/res/drawable/design_bottom_navigation_item_background.xml"
+    }
+]

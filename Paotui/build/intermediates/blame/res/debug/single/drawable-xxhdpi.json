@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_12.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_12.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/add_photo.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/add_photo.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/permission_ic_location.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/permission_ic_location.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/desk_btn_date_s.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/desk_btn_date_s.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/all_icon_more.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/all_icon_more.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/permission_ic_camera.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/permission_ic_camera.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_up.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_up.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/no_select.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/no_select.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_bg_logo.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_bg_logo.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_cry.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_cry.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_09.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_09.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/img_card.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/img_card.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_unionpay.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_unionpay.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/desk_img_nodata.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/desk_img_nodata.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/bt_sure.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/bt_sure.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/bt_time.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/bt_time.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/all_sign_delta.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/all_sign_delta.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/record_img_nodata.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/record_img_nodata.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/change_icon_open.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/change_icon_open.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_work.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_work.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/gathering_keyboard_n.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/gathering_keyboard_n.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/yang.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/yang.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/user_img_icon.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/user_img_icon.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_07.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_07.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_title.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_title.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/gathering_keyboard_backspace_n.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/gathering_keyboard_backspace_n.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_2.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_2.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/desk_icon_user.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/desk_icon_user.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/share_friendship.9.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/share_friendship.9.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_01.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_01.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/dialog.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/dialog.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/all_icon_back.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/all_icon_back.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/imge_head.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/imge_head.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_1.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_1.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_mine.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_mine.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_work_off.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_work_off.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/off_select.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/off_select.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/balance_icon_help.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/balance_icon_help.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/com_ttshrk_view_scroll_picker_bar.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/com_ttshrk_view_scroll_picker_bar.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_02.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_02.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/change_btn_d.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/change_btn_d.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/bt_on.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/bt_on.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_05.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_05.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_08.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_08.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_11.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_11.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/setting_icon_data.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/setting_icon_data.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_bg.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_bg.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/setting_user_decoration.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/setting_user_decoration.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_input_name.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_input_name.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_more.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_more.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/desk_btn_date_n.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/desk_btn_date_n.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_input_password.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_input_password.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/top_none.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/top_none.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/help_logo.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/help_logo.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/permission_ic_phone.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/permission_ic_phone.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_04.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_04.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/jiebiango_icon.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/jiebiango_icon.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/about.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/about.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/setting_icon_medal.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/setting_icon_medal.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_mine_on.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_mine_on.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/change_btn_n.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/change_btn_n.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_bg.9.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_bg.9.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/gathering_keyboard_dot_p.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/gathering_keyboard_dot_p.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_btn_n.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_btn_n.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_icon_select2.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_icon_select2.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/change_input_n.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/change_input_n.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/bt_off.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/bt_off.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/toast_wrong.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/toast_wrong.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_icon_ming_arrow.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_icon_ming_arrow.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_cod_alipay.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_cod_alipay.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_down.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_down.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/bt_no.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/bt_no.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/top.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/top.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/balance_icon_setting.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/balance_icon_setting.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/change_input_short.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/change_input_short.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/bank.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/bank.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/add_banl.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/add_banl.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_btn.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_btn.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/setting_icon_change.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/setting_icon_change.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/logo_bank.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/logo_bank.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/card_icon_delete.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/card_icon_delete.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_btn_dn.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_btn_dn.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/select_icon.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/select_icon.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/bt.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/bt.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/gathering_keyboard_p.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/gathering_keyboard_p.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/permission_ic_storage.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/permission_ic_storage.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_icon_name.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_icon_name.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_06.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_06.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/defoult.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/defoult.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/gathering_keyboard_backspace_p.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/gathering_keyboard_backspace_p.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/share_wechat.9.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/share_wechat.9.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_10.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_10.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/setting_icon_logout.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/setting_icon_logout.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/setting_bg.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/setting_bg.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/list_icon_more.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/list_icon_more.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/pic_success.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/pic_success.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_logo.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_logo.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_icon_select.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_icon_select.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/delete_photo.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/delete_photo.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/search_input.9.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/search_input.9.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/loading_03.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_03.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/list_bg_date2.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/list_bg_date2.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/change_input_s.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/change_input_s.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_icon_password.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_icon_password.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/gathering_keyboard_dot_n.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/gathering_keyboard_dot_n.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/change_icon_close.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/change_icon_close.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/list_bg_date.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/list_bg_date.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/path.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/path.png"
+    }
+]
