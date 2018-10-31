@@ -9,58 +9,80 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/setting_bg">
+        android:layout_height="131dp"
+        android:background="#1B99ED">
+
+        <com.fmt.ming.paotui.view.CircleImageView
+            android:id="@+id/myicon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/head"
+            attrs:border_color="@color/white"
+            attrs:border_width="1dp" />
+
 
         <LinearLayout
-            android:id="@+id/ll_layout"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:gravity="center"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/setting_user_decoration">
 
-            <com.fmt.ming.paotui.view.CircleImageView
-                android:id="@+id/myicon"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                attrs:border_color="@color/transparent"
-                attrs:border_width="1dp" />
-        </LinearLayout>
-
-
-        <TextView
-            android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/ll_layout"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/divider_height_10"
-            android:textColor="@color/white"
-            android:textSize="18sp"></TextView>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_name"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="47dp"
+            android:layout_toRightOf="@+id/myicon"
             android:gravity="center_vertical">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/setting_icon_medal" />
 
             <TextView
+                android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/tv_level"
-                android:text="不忘初心*骑手"
-                android:textColor="@color/darkgray"
-                android:textSize="14sp"></TextView>
+                android:layout_marginLeft="14dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxEms="4"
+                android:text="罗富贵"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/list_icon_more" />
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_set"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/icon_set" />
+
+        <ImageView
+            android:id="@+id/iv_magess"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="47dp"
+            android:layout_toLeftOf="@+id/iv_set"
+            android:src="@drawable/icon_massge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_set"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@+id/myicon"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="幸福是靠自己努力得来的"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
 
     </RelativeLayout>
 

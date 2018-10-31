@@ -24,6 +24,8 @@ public class TakeActivity$$ViewBinder<T extends com.fmt.ming.paotui.activity.Tak
     target.rbXianshang = finder.castView(view, 2131755285, "field 'rbXianshang'");
     view = finder.findRequiredView(source, 2131755286, "field 'rbYue'");
     target.rbYue = finder.castView(view, 2131755286, "field 'rbYue'");
+    view = finder.findRequiredView(source, 2131755252, "field 'tv_information'");
+    target.tv_information = finder.castView(view, 2131755252, "field 'tv_information'");
   }
 
   @Override public void unbind(T target) {
@@ -35,5 +37,6 @@ public class TakeActivity$$ViewBinder<T extends com.fmt.ming.paotui.activity.Tak
     target.rbQishou = null;
     target.rbXianshang = null;
     target.rbYue = null;
+    target.tv_information = null;
   }
 }

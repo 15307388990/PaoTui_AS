@@ -75,6 +75,8 @@ public class TakeActivity extends BaseActivity implements ImageWithDelete.ICallB
     RadioButton rbXianshang;
     @Bind(R.id.rb_yue)
     RadioButton rbYue;
+    @Bind(R.id.tv_information)
+    TextView tv_information;
 
 
     private String order_uuid, typestring;
@@ -110,6 +112,7 @@ public class TakeActivity extends BaseActivity implements ImageWithDelete.ICallB
         } else {
             title.setText("我已" + typestring);
         }
+        tv_information.setText(typestring+"信息");
         tvText.setText(typestring + "拍照");
         mDialog = new ProgressDialog(this);
         mDialog.setCancelable(false);
