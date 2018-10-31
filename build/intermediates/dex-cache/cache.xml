@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/xUtils-2.6.14_f5e0b04599b1decef0404ab1f5a3fa33afbf86b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/TencentLocationSdk_v6.2.5.3_r15b3b3cc_20171103_115903.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f677fdf9cba94d3f7ae3cc597b41c21b0770579e">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/TencentLocationSdk_v6.2.5.3_r15b3b3cc_20171103_115903_a77a9cd581b17d11604e28270ed3e101d4c984ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4f11330834f00ecbf76acef91a5e3be24b99f9fd">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/Msc_e6f22dc3efc290b3cd1184ac76f1c58a56afdceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/umeng-analytics-v6.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4bff754fc05336940a8cb348e455c01515b5d883">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/umeng-analytics-v6.1.1_ad5a3c6655eaa7fbf0ec13552525c4618cee2901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/libammsdk_863d7e9ca8070dceeebcebd201ef4b0f91171507.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/libs/libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/libammsdk_6393a3f043803e19f63cccf1b35e1e8405840d04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/fastjson-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/fastjson-1.2.2_f8be597097ee2295dceb2b3fcd399ddbba89b27c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/libs/universal-image-loader-1.9.3-with-sources.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="03e3948d42b8d78961a092a184af66bd86da42e6">
+        <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-with-sources_4a7fe53eec09da7d1c5951fd6b58ae88eb7acbe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/libs/fastjson-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
+        <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/fastjson-1.2.2_6dac85e35a07c9efc1e894bd1fb76dd25ef6a270.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/jcore-android-1.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d2cabf100b12e13cc22b8361a93f854103bb3cca">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/jcore-android-1.2.1_cbacb36eaee6aa6c29672ab9673479c796839d43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/volley/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b4b3870762dade1d6f93141b896702075ca022b">
+        <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/classes_c115059fd69b9425044e279d723588933a2a79dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/jpush-android-3.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="437ebf84ca874a27d0c0007e628cddc5121a285e">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/jpush-android-3.1.3_58b9aaa52c7ab445cf79940091b11f60299e2a5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/xUtils-2.6.14_d0a8826254c16215c4949d2f105b2b74af2405ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/volley/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="75ff097db78266daaa564b2a085f14964a4e7ca9">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/classes_ab83c914570e1f024ef9e0be1ba0399a6178e7c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/libs/umeng-analytics-v6.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4bff754fc05336940a8cb348e455c01515b5d883">
+        <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/umeng-analytics-v6.1.1_6114dfe21609e1ae5f4a422648f62583a749cd68.jar" />
+    </item>
+
+</items>
