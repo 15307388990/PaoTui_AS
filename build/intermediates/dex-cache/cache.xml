@@ -57,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/library/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="763198eba82b796f2dc04494a2199ff1e67e7fe8">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/classes_70fefbdaf4b54a8ef96bde7a30b7be7a1166c8e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/fastjson-1.2.2.jar"
         jumboMode="false"
         optimize="true"
@@ -72,6 +81,15 @@
         revision="25.0.3"
         sha1="03e3948d42b8d78961a092a184af66bd86da42e6">
         <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-with-sources_4a7fe53eec09da7d1c5951fd6b58ae88eb7acbe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/.android/build-cache/14e5bc2d46532d885c017990bfb5a5252e66d3a7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d0650e4e44346616a2e5283f8091380bcde52556">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/classes_804347b55487ad29e69974d55a66908e0227dd8d.jar" />
     </item>
     <item
         is-multidex="false"

@@ -36,6 +36,10 @@
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_bg_logo.png"
     },
     {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/head.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/head.png"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_cry.png",
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_cry.png"
     },
@@ -124,6 +128,10 @@
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/loading_01.png"
     },
     {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_massge.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_massge.png"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/dialog.png",
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/dialog.png"
     },
@@ -210,6 +218,10 @@
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/login_input_password.png",
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/login_input_password.png"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_set.png",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-xxhdpi/icon_set.png"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-xxhdpi/top_none.png",

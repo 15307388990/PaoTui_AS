@@ -70,15 +70,12 @@
 
             </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1px"
-                android:background="#cbe5f4" />
 
             <LinearLayout
                 android:id="@+id/layout_login_password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="1dp"
                 android:background="@drawable/login_input_password">
 
                 <TextView

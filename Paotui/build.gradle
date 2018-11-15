@@ -78,7 +78,6 @@ repositories {
 }
 
 dependencies {
-    compile project(':volley')
     compile files('libs/fastjson-1.2.2.jar')
     compile files('libs/umeng-analytics-v6.1.1.jar')
     compile files('libs/xUtils-2.6.14.jar')
@@ -102,4 +101,7 @@ dependencies {
     compile files('libs/TencentMapSDK_Raster_v1.1.2.16281.jar')
     compile files('libs/TencentLocationSdk_v6.2.5.3_r15b3b3cc_20171103_115903.jar')
     compile files('libs/Msc.jar')
+    compile 'jp.wasabeef:recyclerview-animators:1.0.3@aar'
+    compile project(':library')
+    compile project(':volley')
 }

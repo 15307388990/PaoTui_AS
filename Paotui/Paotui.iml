@@ -105,6 +105,7 @@
     <orderEntry type="library" exported="" name="com.squareup.okhttp3:okhttp:3.8.1@jar" level="project" />
     <orderEntry type="library" exported="" name="com.githang:status-bar-compat-0.7" level="project" />
     <orderEntry type="library" exported="" name="com.github.lovetuzitong:MultiImageSelector-1.2" level="project" />
+    <orderEntry type="library" exported="" name="jp.wasabeef:recyclerview-animators-1.0.3" level="project" />
     <orderEntry type="library" exported="" name="com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-core-utils-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="com.android.support.constraint:constraint-layout-1.0.2" level="project" />
@@ -129,5 +130,6 @@
     <orderEntry type="library" exported="" name="com.android.support:support-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:recyclerview-v7-25.3.1" level="project" />
     <orderEntry type="module" module-name="volley" exported="" />
+    <orderEntry type="module" module-name="library" exported="" />
   </component>
 </module>

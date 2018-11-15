@@ -24,28 +24,32 @@
         "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_green_light.xml"
     },
     {
-        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_btn_blue.xml",
-        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_blue.xml"
-    },
-    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_btn_blue.xml",
+        "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_blue.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/tab_home_mine.xml",
-        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/tab_home_mine.xml"
-    },
-    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/mis_action_btn.xml",
         "source": "/Users/luoming/.android/build-cache/6f275881b7ee106aded6b5092c168553892c9b3d/output/res/drawable/mis_action_btn.xml"
     },
     {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/tab_home_mine.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/tab_home_mine.xml"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/popup_bg.xml",
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/popup_bg.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/switch_custom_thumb_off.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/switch_custom_thumb_off.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -208,6 +212,10 @@
         "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/switch_custom_thumb_selector.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/switch_custom_thumb_selector.xml"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/shape_btn_next.xml",
         "source": "/Users/luoming/.android/build-cache/78e8c3f16421fe000db0d2506c4f49429a32d980/output/res/drawable/shape_btn_next.xml"
     },
@@ -238,6 +246,10 @@
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/switch_custom_thumb_on.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable/switch_custom_thumb_on.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
