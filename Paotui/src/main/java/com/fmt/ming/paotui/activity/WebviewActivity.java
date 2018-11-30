@@ -15,6 +15,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 
 import com.fmt.ming.paotui.R;
 import com.fmt.ming.paotui.base.BaseActivity;
@@ -34,6 +35,9 @@ public class WebviewActivity extends BaseActivity {
     private WebView mWebView;
     @ViewInject(R.id.pb_progressbar)
     private android.widget.ProgressBar ProgressBar;
+    @ViewInject(R.id.btn_daohang)
+    private Button btn_daohang;
+
     private String url;
     private SharePopupWindowNoCode showShareWindow;
 
@@ -97,6 +101,7 @@ public class WebviewActivity extends BaseActivity {
                     } else {
                         if (View.GONE == ProgressBar.getVisibility()) {
                             ProgressBar.setVisibility(View.VISIBLE);
+                            btn_daohang.setVisibility(View.VISIBLE);
                         }
                         ProgressBar.setProgress(newProgress);
                     }

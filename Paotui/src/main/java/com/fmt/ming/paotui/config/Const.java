@@ -51,8 +51,17 @@ public class Const {
     public static final String update = "/order/update";
     /* 更新头像 */
     public static final String avatar = "/rider/avatar";
-      /* 上传图片 */
+    /* 上传图片 */
     public static final String upload = "/image/upload";
+    /* 上班接单 */
+    public static final String work = "/rider/work";
+    /* 下班 休息 */
+    public static final String unwork = "/rider/unwork";
+    /* 用户中心 */
+    public static final String center = "/rider/center";
+    /* 消息中心 */
+    public static final String message = "/message/index";
+
 
     /* 售货机列表 */
     public static final String getApiVenderDeviceList = "/api/vender/getApiVenderDeviceList.do";
@@ -68,6 +77,8 @@ public class Const {
     public static final String config = "/config/index";
     /* 获取轨迹 */
     public static final String route = "/lbs/route";
+    /* 消息详情 */
+    public static final String messageshow = "/message/show";
 
 
     /**

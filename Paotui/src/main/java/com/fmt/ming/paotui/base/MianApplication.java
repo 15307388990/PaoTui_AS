@@ -20,6 +20,15 @@ import java.io.File;
 import cn.jpush.android.api.JPushInterface;
 
 public class MianApplication extends Application {
+    private int score = 1;
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
 
     @SuppressLint("NewApi")
     @Override
