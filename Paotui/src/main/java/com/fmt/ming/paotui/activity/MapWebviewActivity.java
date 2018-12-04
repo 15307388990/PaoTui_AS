@@ -25,7 +25,6 @@ import com.fmt.ming.paotui.dialog.SharePopupWindowNoCode;
 import com.fmt.ming.paotui.utils.Tools;
 import com.githang.statusbar.StatusBarCompat;
 import com.lidroid.xutils.ViewUtils;
-import com.lidroid.xutils.db.sqlite.DbModelSelector;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
 import java.io.File;
@@ -34,15 +33,18 @@ import java.io.File;
 /**
  * @author WebviewActivity
  */
-public class WebviewActivity extends BaseActivity {
+public class MapWebviewActivity extends BaseActivity {
 
     @ViewInject(R.id.webview)
     private WebView mWebView;
     @ViewInject(R.id.pb_progressbar)
     private android.widget.ProgressBar ProgressBar;
+    @ViewInject(R.id.btn_daohang)
+    private Button btn_daohang;
 
     private String url;
     private SharePopupWindowNoCode showShareWindow;
+    private OrderModel orderModel;
 
     @Override
     public void onBackPressed() {
@@ -55,7 +57,7 @@ public class WebviewActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_webview);
+        setContentView(R.layout.activity_map_webview);
         StatusBarCompat.setStatusBarColor(this, getResources().getColor(R.color.darkgray));
         ViewUtils.inject(this);
         Tools.webacts.add(this);
@@ -63,8 +65,33 @@ public class WebviewActivity extends BaseActivity {
         url = getIntent().getStringExtra("link_url");
         initTitle();
         title.setText(getIntent().getStringExtra("link_name"));
+        orderModel = (OrderModel) getIntent().getSerializableExtra("order");
         init();
         showShareWindow = new SharePopupWindowNoCode(this);
+        btn_daohang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (orderModel != null) {
+                    if (isInstallPackage("com.tencent.map")) {
+                        String intentFullUrl = "qqmap://map/routeplan?type=bike&from=" + orderModel.getSeller_addr() +
+                                "&fromcoord=" + orderModel.getSeller_lat() + "," + orderModel.getSeller_lon() +
+                                "&to=" + orderModel.getUser_addr() +
+                                "&tocoord=" + orderModel.getUser_lat() + "," + orderModel.getUser_lon() +
+                                "&referer=" + "U4KBZ-D3F3X-DSU4A-7BBER-TYII5-GJBUD";
+                        Intent intent = new Intent();
+                        intent.setData(Uri.parse(intentFullUrl));
+                        startActivity(intent);
+                    } else {
+                        Intent intent = new Intent();
+                        intent.setData(Uri.parse("https://pr.map.qq.com/j/tmap/download?key=U4KBZ-D3F3X-DSU4A-7BBER-TYII5-GJBUD"));//Url 就是你要打开的网址
+                        intent.setAction(Intent.ACTION_VIEW);
+                        startActivity(intent); //启动浏览器
+                    }
+
+                }
+
+            }
+        });
     }
 
     @Override
@@ -101,6 +128,7 @@ public class WebviewActivity extends BaseActivity {
                 public void onProgressChanged(WebView view, int newProgress) {
                     if (newProgress == 100) {
                         ProgressBar.setVisibility(View.GONE);
+                        btn_daohang.setVisibility(View.VISIBLE);
                     } else {
                         if (View.GONE == ProgressBar.getVisibility()) {
                             ProgressBar.setVisibility(View.VISIBLE);
@@ -199,5 +227,8 @@ public class WebviewActivity extends BaseActivity {
 
     }
 
+    private boolean isInstallPackage(String packageName) {
+        return new File("/data/data/" + packageName).exists();
+    }
 
 }

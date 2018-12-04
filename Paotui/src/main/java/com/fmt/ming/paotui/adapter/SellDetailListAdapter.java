@@ -15,6 +15,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.fmt.ming.paotui.R;
+import com.fmt.ming.paotui.activity.MapWebviewActivity;
 import com.fmt.ming.paotui.activity.OrderDetailsActivity;
 import com.fmt.ming.paotui.activity.WebviewActivity;
 import com.fmt.ming.paotui.bean.OrderModel;
@@ -187,9 +188,10 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
             holder.ll_local.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(mContext, WebviewActivity.class);
+                    Intent intent = new Intent(mContext, MapWebviewActivity.class);
                     intent.putExtra("link_url", Const.BASE_URL + Const.route + "?token=" + mSavePreferencesData.getStringData("token") + "&seller_lon=" + sellBean.getSeller_lon() + "&seller_lat=" + sellBean.getSeller_lat() + "&user_lon=" + sellBean.getUser_lon() + "&user_lat=" + sellBean.getUser_lat());
                     intent.putExtra("link_name", "查看路线");
+                    intent.putExtra("order", sellBean);
                     mContext.startActivity(intent);
                 }
             });

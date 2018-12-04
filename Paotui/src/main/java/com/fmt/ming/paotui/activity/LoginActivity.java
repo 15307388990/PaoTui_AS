@@ -71,9 +71,16 @@ public class LoginActivity extends BaseActivity {
         if (auth_token != null && !auth_token.equals("")) {
             intent.setClass(LoginActivity.this, TabActivity.class);
             startActivity(intent);
+        } else {
+            String name = mSavePreferencesData.getStringData("name");
+            String pwd = mSavePreferencesData.getStringData("pwd");
+            if (name != null && !"".equals(name)) {
+                etLoginAccount.setText(name);
+                etLoginPassword.setText(pwd);
+            }
         }
 
-       // jiebianAppVersion();
+        // jiebianAppVersion();
 //        etLoginPassword.addTextChangedListener(new TextWatcher() {
 //
 //            @Override
@@ -135,7 +142,6 @@ public class LoginActivity extends BaseActivity {
     public void toLogin(String name, String pwd) {
         Map<String, String> map = new HashMap<>();
         map.put("mobile", name);
-        //String password = MD5Util.getMD5String(pwd);
         map.put("password", pwd);
         map.put("israpp", "1");
         mQueue.add(ParamTools.packParam(Const.venderLogin, this, this, map));
@@ -166,6 +172,9 @@ public class LoginActivity extends BaseActivity {
             if (stauts == 200) {
                 String token = json.optString("token");
                 mSavePreferencesData.putStringData("token", token);
+                mSavePreferencesData.putStringData("name", name);
+                mSavePreferencesData.putStringData("pwd", pwd);
+
                 String date = json.optString("data");
                 mSavePreferencesData.putStringData("json", date);
                 storeBean = JSON.parseObject(date, StoreBean.class);

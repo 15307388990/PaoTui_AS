@@ -101,6 +101,13 @@
             android:name="com.fmt.ming.paotui.service.NotificationUpdateActivity"
             android:theme="@style/notitle1"></activity>
         <activity
+            android:name="com.fmt.ming.paotui.activity.MeassActivity"
+            android:screenOrientation="portrait" /><!-- 消息列表 -->
+        <activity
+            android:name="com.fmt.ming.paotui.activity.MapWebviewActivity"
+            android:screenOrientation="portrait" /><!-- 地图网页 -->
+
+        <activity
             android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />

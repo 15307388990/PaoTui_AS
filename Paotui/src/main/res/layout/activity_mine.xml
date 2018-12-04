@@ -95,7 +95,6 @@
             android:layout_toRightOf="@+id/myicon"
             android:ellipsize="end"
             android:lines="1"
-            android:text="幸福是靠自己努力得来的"
             android:textColor="@color/white"
             android:textSize="12sp" />
 
