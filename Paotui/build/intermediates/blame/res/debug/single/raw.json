@@ -12,7 +12,23 @@
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/raw/dingdong.mp3"
     },
     {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/raw/raw.mp3",
+        "source": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/raw/raw.mp3"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/raw/raw.mp3",
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/raw/raw.mp3"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/raw/realm_properties",
+        "source": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/raw/realm_properties"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/raw/dingdong.mp3",
+        "source": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/raw/dingdong.mp3"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/raw/beep.ogg"
     }
 ]

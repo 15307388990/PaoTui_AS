@@ -1,46 +1,90 @@
 [
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_tint_default.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_tint_default.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/luoming/.android/build-cache/50c8083436e323b4dc5afd1a8c8876e38d1ad348/output/res/color-v23/design_tint_password_toggle.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_tint_btn_checkable.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_tint_spinner.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_tint_edittext.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_color_highlight_material.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_tint_switch_track.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/luoming/.android/build-cache/f32a4bd39c7e18cc31f15c05440a9a950cede0a2/output/res/color-v23/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color-v23/abc_btn_colored_text_material.xml"
     }
 ]

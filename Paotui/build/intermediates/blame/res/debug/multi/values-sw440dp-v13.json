@@ -1,5 +1,447 @@
 [
     {
+        "outputFile": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw440dp-v13/values-sw440dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 48,
+                    "endOffset": 213
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 591,
+                        "endColumn": 48,
+                        "endOffset": 635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 218,
+                    "endColumn": 47,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 47,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endColumn": 40,
+                    "endOffset": 302
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 774,
+                        "endColumn": 40,
+                        "endOffset": 810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 307,
+                    "endColumn": 42,
+                    "endOffset": 345
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1102,
+                        "endColumn": 42,
+                        "endOffset": 1140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 350,
+                    "endColumn": 40,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 815,
+                        "endColumn": 40,
+                        "endOffset": 851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 391,
+                    "endColumn": 40,
+                    "endOffset": 427
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 856,
+                        "endColumn": 40,
+                        "endOffset": 892
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 432,
+                    "endColumn": 40,
+                    "endOffset": 468
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 897,
+                        "endColumn": 40,
+                        "endOffset": 933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 473,
+                    "endColumn": 40,
+                    "endOffset": 509
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 40,
+                        "endOffset": 974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 514,
+                    "endColumn": 40,
+                    "endOffset": 550
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 979,
+                        "endColumn": 40,
+                        "endOffset": 1015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 555,
+                    "endColumn": 38,
+                    "endOffset": 589
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 38,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 594,
+                    "endColumn": 40,
+                    "endOffset": 630
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1020,
+                        "endColumn": 40,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 635,
+                    "endColumn": 40,
+                    "endOffset": 671
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 40,
+                        "endOffset": 1097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 676,
+                    "endColumn": 38,
+                    "endOffset": 710
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 225,
+                        "endColumn": 38,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 715,
+                    "endColumn": 38,
+                    "endOffset": 749
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 38,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 754,
+                    "endColumn": 38,
+                    "endOffset": 788
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 303,
+                        "endColumn": 38,
+                        "endOffset": 337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 793,
+                    "endColumn": 38,
+                    "endOffset": 827
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 342,
+                        "endColumn": 38,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 832,
+                    "endColumn": 38,
+                    "endOffset": 866
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 381,
+                        "endColumn": 38,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 871,
+                    "endColumn": 38,
+                    "endOffset": 905
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 420,
+                        "endColumn": 38,
+                        "endOffset": 454
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 910,
+                    "endColumn": 38,
+                    "endOffset": 944
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 459,
+                        "endColumn": 38,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 949,
+                    "endColumn": 46,
+                    "endOffset": 991
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 640,
+                        "endColumn": 46,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 996,
+                    "endColumn": 46,
+                    "endOffset": 1038
+                },
+                "from": {
+                    "file": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/values-sw440dp/dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 46,
+                        "endOffset": 729
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw440dp-v13/values-sw440dp-v13.xml",
         "map": [
             {

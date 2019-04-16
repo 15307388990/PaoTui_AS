@@ -1,6 +1,10 @@
 [
     {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/luoming/.android/build-cache/95a6f3d3b1b984f100e79ec5591714924b66229c/output/res/mipmap-xxxhdpi-v4/ic_launcher.png"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
-        "source": "/Users/luoming/.android/build-cache/0cac6d149e229eebbfd5593485971ee9e3f3f1f0/output/res/mipmap-xxxhdpi-v4/ic_launcher.png"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.allenliu.versionchecklib/library/1.8.1/res/mipmap-xxxhdpi-v4/ic_launcher.png"
     }
 ]

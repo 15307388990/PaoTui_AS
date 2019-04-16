@@ -94,7 +94,7 @@
                 android:background="@drawable/rab_top"
                 android:button="@null"
                 android:gravity="center"
-                android:text="配送中"
+                android:text="处理中"
                 android:textColor="@color/tab_text_rab" />
 
             <RadioButton

@@ -94,6 +94,8 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
             holder.tv_distance.setText(sellBean.getDistance() + "米");
             holder.tv_user_addr.setText(sellBean.getUser_addr());
             holder.tv_remark.setText(sellBean.getRemark());
+            holder.ll_distance.setVisibility(View.VISIBLE);
+            holder.ll_user.setVisibility(View.VISIBLE);
             // otype 订单类型(0:外卖,1:配送,2:跑腿)
             switch (sellBean.getOtype()) {
                 case "0":
@@ -104,6 +106,10 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                     break;
                 case "2":
                     holder.tv_type.setText("跑腿");
+                case "3":
+                    holder.tv_type.setText("代排");
+                    holder.ll_distance.setVisibility(View.GONE);
+                    holder.ll_user.setVisibility(View.GONE);
                     break;
             }
             String dasd = "";
@@ -125,6 +131,15 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                         holder.btn_accept.setText("联系客户");
                     } else {
                         holder.btn_refuse.setText("取件");
+                        holder.btn_accept.setText("联系商家");
+                    }
+                case 3://代排
+
+                    if (sellBean.getStatus().equals("4")) {
+                        holder.btn_refuse.setText("送达");
+                        holder.btn_accept.setText("联系客户");
+                    } else {
+                        holder.btn_refuse.setText("代排");
                         holder.btn_accept.setText("联系商家");
                     }
 
@@ -219,7 +234,7 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
         public TextView tv_uuid, tv_tprice, tv_dtime, tv_seller_addr, tv_distance, tv_user_addr, tv_remark, tv_created_at, tv_information, tv_type;
         //拒单 接单
         public Button btn_accept, btn_refuse;
-        public LinearLayout ll_layout, ll_layout2, ll_local;
+        public LinearLayout ll_layout, ll_layout2, ll_local, ll_user, ll_distance;
         public TextView tv_complete_price, tv_complete_number;
 
         public ViewHoler(View itemView) {
@@ -241,6 +256,8 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
             tv_complete_price = (TextView) itemView.findViewById(R.id.tv_complete_price);
             tv_complete_number = (TextView) itemView.findViewById(R.id.tv_complete_number);
             ll_local = (LinearLayout) itemView.findViewById(R.id.ll_local);
+            ll_user = (LinearLayout) itemView.findViewById(R.id.ll_user);
+            ll_distance = (LinearLayout) itemView.findViewById(R.id.ll_distance);
         }
     }
 }

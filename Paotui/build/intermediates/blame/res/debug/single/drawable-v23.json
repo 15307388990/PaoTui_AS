@@ -1,6 +1,10 @@
 [
     {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/luoming/.android/build-cache/a900dae33701ec8f8e9ba23b21777f480dd39022/output/res/drawable-v23/abc_control_background_material.xml"
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v23/abc_control_background_material.xml"
     }
 ]

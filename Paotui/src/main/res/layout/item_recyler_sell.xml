@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="@dimen/divider_height_10"
     android:layout_marginTop="@dimen/margin_5"
+    android:layout_marginBottom="@dimen/divider_height_10"
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -209,6 +209,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_distance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -233,6 +234,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_user"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -301,8 +303,8 @@
                 android:id="@+id/btn_refuse"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="10dp"
                 android:layout_marginStart="70dp"
+                android:layout_marginLeft="10dp"
                 android:background="@drawable/home_btn_accept"
                 android:text="接单"
                 android:textColor="@color/white"

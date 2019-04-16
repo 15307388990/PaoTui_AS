@@ -21,30 +21,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/Msc.jar"
+        jar="/Users/luoming/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="4f11330834f00ecbf76acef91a5e3be24b99f9fd">
-        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/Msc_e6f22dc3efc290b3cd1184ac76f1c58a56afdceb.jar" />
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/picasso-2.4.0_35bb9f87e07a1793d77d1009f8502d3ad8b3a029.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/umeng-analytics-v6.1.1.jar"
+        jar="/Users/luoming/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="4bff754fc05336940a8cb348e455c01515b5d883">
-        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/umeng-analytics-v6.1.1_ad5a3c6655eaa7fbf0ec13552525c4618cee2901.jar" />
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/okio-1.13.0_e5cfcb7cb34979649dafa5b13d2886ce4436b3e2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/libammsdk.jar"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
-        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/libammsdk_863d7e9ca8070dceeebcebd201ef4b0f91171507.jar" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_8dccf5bf5622224bc827cbae392418b122e11c21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_046bf6e80ba649a846c5bc325e2b18724173f702.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_ccd99b417e7fad909e7ff639fa11857e1c251dd8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,12 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/library/build/intermediates/bundles/default/classes.jar"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="763198eba82b796f2dc04494a2199ff1e67e7fe8">
-        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/classes_70fefbdaf4b54a8ef96bde7a30b7be7a1166c8e0.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_ae0b99605b1f916ffd916b24f0a98d8ba3ba6fb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_1a501d9312933ef5c3e5b672e6c89208804162fd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,6 +102,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/luoming/android-sdks/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_42621c3483d1dd34da93d1502732882776e6350b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/me.weyye.hipermission/library/1.0.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ac813a0c2bd00ca9b36e9c1b7ffa76f3193033ec">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/me.weyye.hipermission-library-1.0.7_36c6d043e5c750158ec511fe43af8cf6ffa0205c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/libs/universal-image-loader-1.9.3-with-sources.jar"
         jumboMode="false"
         optimize="true"
@@ -84,21 +129,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/luoming/.android/build-cache/14e5bc2d46532d885c017990bfb5a5252e66d3a7/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d0650e4e44346616a2e5283f8091380bcde52556">
-        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/classes_804347b55487ad29e69974d55a66908e0227dd8d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/libs/fastjson-1.2.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
         <dex dex="/Users/luoming/Desktop/workspace_as/JieBianGo_AS/jieBianGo/build/intermediates/pre-dexed/debug/fastjson-1.2.2_6dac85e35a07c9efc1e894bd1fb76dd25ef6a270.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_218843097cecb76868d484a88191420650a86eef.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,12 +165,174 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.liaoinstan.springview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ef724616e0268d5e73c203e6f76d7675af2bdc77">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.liaoinstan.springview-library-1.3.0_3bf02a6ee81018e3ef0695e4ad3ded88877deedf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_c69e245dc227f42e1223ae169012a07520deb6f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/jpush-android-3.1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="437ebf84ca874a27d0c0007e628cddc5121a285e">
         <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/jpush-android-3.1.3_58b9aaa52c7ab445cf79940091b11f60299e2a5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/volley/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="75ff097db78266daaa564b2a085f14964a4e7ca9">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/classes_ab83c914570e1f024ef9e0be1ba0399a6178e7c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/4d060ca3190df0eda4dc13415532a12e15ca5f11/okhttp-3.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/okhttp-3.8.1_42c074760863843387400c15ccd4065c65d9ed21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_77bd1697b3564a08b6eced597d7c1faf928ab418.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_ebbe4071e2d0cdff0c5e0e24b32e325ca05282fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_b11cc6ce00d9e0314c6fb6f979031716ded50d90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.githang/status-bar-compat/0.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="112f73188ad66f6c5d0c699835473bc1380522e7">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.githang-status-bar-compat-0.7_73bc735ddc68c280144f2c257e72c3262ab72cb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/butterknife-7.0.1_c29ee1d9c69bfb557e49436b9d3dc3b25785380f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.github.lovetuzitong/MultiImageSelector/1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0b0af18c4e06857f37c0f72d02df06de0a8792ea">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.github.lovetuzitong-MultiImageSelector-1.2_9c6a519b6bc0853b49f2f3d156bfd27b075242f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4f11330834f00ecbf76acef91a5e3be24b99f9fd">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/Msc_e6f22dc3efc290b3cd1184ac76f1c58a56afdceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/umeng-analytics-v6.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4bff754fc05336940a8cb348e455c01515b5d883">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/umeng-analytics-v6.1.1_ad5a3c6655eaa7fbf0ec13552525c4618cee2901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_5c5df754e25146dba4316091fb67a50bbe72e18c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/libs/libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/libammsdk_863d7e9ca8070dceeebcebd201ef4b0f91171507.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/1.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d0650e4e44346616a2e5283f8091380bcde52556">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/jp.wasabeef-recyclerview-animators-1.0.3_5f305b49f00941d450379bc5ddcd8424a348bc0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_e07377c7ecd522ddeb020c5310a8f7302f1d1a84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_ad91b17f2c50b74b4100a9f1c1a710f015903446.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_b86a36565fed02423bc8b5ab64ab6c04989d7a28.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,12 +345,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/volley/build/intermediates/bundles/default/classes.jar"
+        jar="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.allenliu.versionchecklib/library/1.8.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="75ff097db78266daaa564b2a085f14964a4e7ca9">
-        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/classes_ab83c914570e1f024ef9e0be1ba0399a6178e7c7.jar" />
+        sha1="f6a1a9523fec1d63274a38fd891964e1aa5bc12e">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/com.allenliu.versionchecklib-library-1.8.1_e19f12b640248ea50d6ff6eeb3f6ae430a6d713d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/luoming/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
+        <dex dex="/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/pre-dexed/debug/support-annotations-27.0.2_91fd00ab961c9172c3af2ec62f7fc011c7bb99aa.jar" />
     </item>
     <item
         is-multidex="false"

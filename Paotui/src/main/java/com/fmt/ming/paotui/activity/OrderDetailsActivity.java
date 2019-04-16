@@ -88,6 +88,10 @@ public class OrderDetailsActivity extends BaseActivity {
     TextView tv_type;
     @Bind(R.id.tv_information)
     TextView tv_information;
+    @Bind(R.id.ll_distance)
+    LinearLayout ll_distance;
+    @Bind(R.id.ll_user)
+    LinearLayout ll_user;
 
     private String order_uuid;
     private OrderModel orderModel;
@@ -143,6 +147,8 @@ public class OrderDetailsActivity extends BaseActivity {
                 break;
             case "2":
                 tv_type.setText("跑腿");
+            case "3":
+                tv_type.setText("代排");
                 break;
         }
         String dasd = "";
@@ -151,18 +157,24 @@ public class OrderDetailsActivity extends BaseActivity {
 
         }
         tv_information.setText(dasd);
-        for (OrderModel.GoodsBean goodsesBean : orderModel.getGoods()) {
-            View itemView = LayoutInflater.from(OrderDetailsActivity.this).inflate(R.layout.item_goods, llLayout, false);
-            TextView tv_name = (TextView) itemView.findViewById(R.id.tv_name);
-            TextView tv_number = (TextView) itemView.findViewById(R.id.tv_number);
-            TextView tv_price = (TextView) itemView.findViewById(R.id.tv_price);
-            ImageView imageView = (ImageView) itemView.findViewById(R.id.iv_img);
-            tv_name.setText(goodsesBean.getGood().getName());
-            tv_number.setText("X" + goodsesBean.getNums());
-            tv_price.setText("￥" + goodsesBean.getPrice() + "元");
-            imageLoader.displayImage(goodsesBean.getGood().getCover(), imageView,
-                    options);
-            llLayout.addView(itemView);
+        if (!"3".equals(orderModel.getOtype())) {
+            for (OrderModel.GoodsBean goodsesBean : orderModel.getGoods()) {
+                View itemView = LayoutInflater.from(OrderDetailsActivity.this).inflate(R.layout.item_goods, llLayout, false);
+                TextView tv_name = (TextView) itemView.findViewById(R.id.tv_name);
+                TextView tv_number = (TextView) itemView.findViewById(R.id.tv_number);
+                TextView tv_price = (TextView) itemView.findViewById(R.id.tv_price);
+                ImageView imageView = (ImageView) itemView.findViewById(R.id.iv_img);
+                tv_name.setText(goodsesBean.getGood().getName());
+                tv_number.setText("X" + goodsesBean.getNums());
+                tv_price.setText("￥" + goodsesBean.getPrice() + "元");
+                imageLoader.displayImage(goodsesBean.getGood().getCover(), imageView,
+                        options);
+                llLayout.addView(itemView);
+
+            }
+        }else {
+            ll_distance.setVisibility(View.GONE);
+            ll_user.setVisibility(View.GONE);
 
         }
         switch (ordertype) {
@@ -179,6 +191,10 @@ public class OrderDetailsActivity extends BaseActivity {
                 }
                 break;
             case 2://已完成
+                btnAccept.setVisibility(View.GONE);
+                btnRefuse.setVisibility(View.GONE);
+                break;
+            case 3://代排
                 btnAccept.setVisibility(View.GONE);
                 btnRefuse.setVisibility(View.GONE);
                 break;
@@ -239,7 +255,6 @@ public class OrderDetailsActivity extends BaseActivity {
         startActivity(intent);
 
     }
-
 
 
     private void callPhone(String phoneNum) {

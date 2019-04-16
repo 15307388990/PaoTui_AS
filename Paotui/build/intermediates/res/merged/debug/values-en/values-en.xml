@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">feimaotui</string>
+    <string name="app_name">VersionCheckLib</string>
     <string name="versionchecklib_cancel">Cancel</string>
     <string name="versionchecklib_check_new_version">New Update</string>
     <string name="versionchecklib_confirm">Commit</string>

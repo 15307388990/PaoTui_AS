@@ -18,7 +18,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
-import com.daimajia.swipe.SwipeLayout;
 import com.fmt.ming.paotui.R;
 import com.fmt.ming.paotui.activity.ChangePasswordActivity;
 import com.fmt.ming.paotui.activity.LoginActivity;

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/drawable-hdpi/ic_launcher.png"
     }

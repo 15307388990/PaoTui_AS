@@ -1,2 +1,2 @@
-include ':volley', ':library'
+include ':volley'
 include ':Paotui'
