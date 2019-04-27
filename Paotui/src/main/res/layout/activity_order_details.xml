@@ -70,8 +70,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rl_layout"
         android:layout_marginLeft="@dimen/divider_height_10"
-        android:layout_marginRight="@dimen/divider_height_10"
         android:layout_marginTop="@dimen/divider_height_10"
+        android:layout_marginRight="@dimen/divider_height_10"
         android:background="@color/white">
 
         <LinearLayout
@@ -166,6 +166,7 @@
                 android:gravity="center_vertical">
 
                 <TextView
+                    android:id="@+id/tv_timer_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -188,8 +189,43 @@
                 android:background="@color/gray" />
 
             <LinearLayout
+                android:id="@+id/ll_started_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="排队时长："
+                        android:textColor="@color/jiujiujiu"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_started_at"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/actionbar_title_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray" />
+            </LinearLayout>
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
+                android:visibility="gone"
                 android:gravity="center_vertical">
 
                 <TextView
@@ -238,6 +274,109 @@
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:background="@color/gray" />
+
+            <LinearLayout
+                android:id="@+id/ll_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="物品信息"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/actionbar_title_color" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="物品类型："
+                        android:textColor="@color/jiujiujiu"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_itemtype_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@color/actionbar_title_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="物品价值："
+                        android:textColor="@color/jiujiujiu"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_itemprice_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@color/actionbar_title_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="物品重量："
+                        android:textColor="@color/jiujiujiu"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textColor="@color/actionbar_title_color"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -352,7 +491,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
 
                 <TextView
@@ -387,7 +527,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
 
                 <TextView
@@ -397,7 +538,7 @@
                     android:layout_weight="1"
                     android:text="配送费"
                     android:textColor="@color/liuliu"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp" />
 
 
                 <TextView
@@ -436,7 +577,7 @@
                     android:layout_marginRight="@dimen/divider_height_10"
                     android:text="￥240"
                     android:textColor="@color/actionbar_title_color"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
@@ -461,8 +602,8 @@
             android:id="@+id/btn_refuse"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
             android:layout_marginStart="70dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/home_btn_accept"
             android:text="接单"
             android:textColor="@color/white"

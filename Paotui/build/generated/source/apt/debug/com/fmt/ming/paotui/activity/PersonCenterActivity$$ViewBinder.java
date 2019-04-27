@@ -20,8 +20,8 @@ public class PersonCenterActivity$$ViewBinder<T extends com.fmt.ming.paotui.acti
       });
     view = finder.findRequiredView(source, 2131755221, "field 'tvVersion'");
     target.tvVersion = finder.castView(view, 2131755221, "field 'tvVersion'");
-    view = finder.findRequiredView(source, 2131755272, "field 'tvQuit' and method 'onViewClicked'");
-    target.tvQuit = finder.castView(view, 2131755272, "field 'tvQuit'");
+    view = finder.findRequiredView(source, 2131755277, "field 'tvQuit' and method 'onViewClicked'");
+    target.tvQuit = finder.castView(view, 2131755277, "field 'tvQuit'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(

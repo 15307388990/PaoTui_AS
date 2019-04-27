@@ -47,7 +47,7 @@ import me.weyye.hipermission.PermissionItem;
  * 首页
  */
 public class TabActivity extends BaseActivity {
-    public Fragment mMianFragment, mMinFragment;
+    private Fragment mMianFragment, mMinFragment;
     private RadioButton tab_rb_home;
     private RadioButton tab_rb_mine;
     private FrameLayout fragment_container;

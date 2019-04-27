@@ -27,7 +27,7 @@ public class Const {
     /**
      * 主地址
      */
-    public static final String BASE_URL = "http://fmt.pengkeda.com";
+    public static final String BASE_URL = "http://app.infmt.cn";
     //public static final String BASE_URL = "http://api.pos.efengshe.com";
     /* ... */
     public static final String SHOP_URL = "http://shop.efengshe.com/";
@@ -77,6 +77,8 @@ public class Const {
     public static final String config = "/config/index";
     /* 获取轨迹 */
     public static final String route = "/lbs/route";
+    /* 获取排队轨迹 */
+    public static final String point = "/lbs/point";
     /* 消息详情 */
     public static final String messageshow = "/message/show";
 

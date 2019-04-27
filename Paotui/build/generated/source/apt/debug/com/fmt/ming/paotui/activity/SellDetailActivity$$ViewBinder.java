@@ -22,8 +22,8 @@ public class SellDetailActivity$$ViewBinder<T extends com.fmt.ming.paotui.activi
     target.tv_star_timer = finder.castView(view, 2131755214, "field 'tv_star_timer'");
     view = finder.findRequiredView(source, 2131755215, "field 'tv_end_timer'");
     target.tv_end_timer = finder.castView(view, 2131755215, "field 'tv_end_timer'");
-    view = finder.findRequiredView(source, 2131755281, "field 'tv_ok'");
-    target.tv_ok = finder.castView(view, 2131755281, "field 'tv_ok'");
+    view = finder.findRequiredView(source, 2131755286, "field 'tv_ok'");
+    target.tv_ok = finder.castView(view, 2131755286, "field 'tv_ok'");
   }
 
   @Override public void unbind(T target) {

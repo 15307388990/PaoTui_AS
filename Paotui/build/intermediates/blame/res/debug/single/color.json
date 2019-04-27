@@ -32,12 +32,12 @@
         "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color/tab_text_selector.xml",
-        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/color/tab_text_selector.xml"
-    },
-    {
         "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/Users/luoming/.android/build-cache/07c559ab4230ed92f731b6dcd9b67d6e6166ae4e/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color/tab_text_selector.xml",
+        "source": "/Users/luoming/Desktop/workspace/PaoTui_AS/Paotui/src/main/res/color/tab_text_selector.xml"
     },
     {
         "merged": "/Users/luoming/Desktop/Desktop/workspace/PaoTui_AS/Paotui/build/intermediates/res/merged/debug/color/tab_text_rab.xml",

@@ -92,6 +92,18 @@ public class OrderDetailsActivity extends BaseActivity {
     LinearLayout ll_distance;
     @Bind(R.id.ll_user)
     LinearLayout ll_user;
+    @Bind(R.id.ll_started_at)
+    LinearLayout ll_started_at;
+    @Bind(R.id.tv_timer_text)
+    TextView tv_timer_text;
+    @Bind(R.id.ll_items)
+    LinearLayout ll_items;//物品信息
+    @Bind(R.id.tv_itemtype_name)
+    TextView tv_itemtype_name;////物品类型
+    @Bind(R.id.tv_itemprice_name)
+    TextView tv_itemprice_name;//物品价值
+    @Bind(R.id.tv_weight)
+    TextView tv_weight; //物品重量
 
     private String order_uuid;
     private OrderModel orderModel;
@@ -139,16 +151,44 @@ public class OrderDetailsActivity extends BaseActivity {
         tvBagging.setText("￥" + orderModel.getBagging() + "元");
         tvFreight.setText("￥" + orderModel.getFreight() + "元");
         switch (orderModel.getOtype()) {
-            case "0":
-                tv_type.setText("外卖");
-                break;
             case "1":
-                tv_type.setText("配送");
+                tv_type.setText("专送");
+                //隐藏排队时长
+                ll_started_at.setVisibility(View.GONE);
+                //显示客户地址 及距离
+                ll_distance.setVisibility(View.VISIBLE);
+                ll_user.setVisibility(View.VISIBLE);
+                //文案修改
+                tv_timer_text.setText("取件时间：");
+                //显示物品信息
+                ll_items.setVisibility(View.VISIBLE);
+                tv_itemtype_name.setText(orderModel.getItemtype_name());
+                tv_itemprice_name.setText(orderModel.getItemprice_name());
+                tv_weight.setText(orderModel.getWeight()+"公斤");
                 break;
             case "2":
-                tv_type.setText("跑腿");
+                tv_type.setText("代买");
+                //隐藏排队时长
+                ll_started_at.setVisibility(View.GONE);
+                //显示客户地址 及距离
+                ll_distance.setVisibility(View.VISIBLE);
+                ll_user.setVisibility(View.VISIBLE);
+                //文案修改
+                tv_timer_text.setText("送达时间：");
+                //隐藏物品信息
+                ll_items.setVisibility(View.GONE);
+                break;
             case "3":
-                tv_type.setText("代排");
+                tv_type.setText("排队");
+                //显示排队时长
+                ll_started_at.setVisibility(View.VISIBLE);
+                //隐藏客户地址 及距离
+                ll_distance.setVisibility(View.GONE);
+                ll_user.setVisibility(View.GONE);
+                //文案修改
+                tv_timer_text.setText("排队时间：");
+                //隐藏物品信息
+                ll_items.setVisibility(View.GONE);
                 break;
         }
         String dasd = "";
@@ -172,7 +212,7 @@ public class OrderDetailsActivity extends BaseActivity {
                 llLayout.addView(itemView);
 
             }
-        }else {
+        } else {
             ll_distance.setVisibility(View.GONE);
             ll_user.setVisibility(View.GONE);
 
@@ -184,17 +224,21 @@ public class OrderDetailsActivity extends BaseActivity {
                 break;
             case 1://配送中
                 btnAccept.setText("联系商家");
-                if (orderModel.getStatus().equals("4")) {
-                    btnRefuse.setText("送达");
+                if ("3".equals(orderModel.getOtype())) {
+                    if (orderModel.getStatus().equals("4")) {
+                        btnRefuse.setText("到达");
+                    } else {
+                        btnRefuse.setText("完成");
+                    }
                 } else {
-                    btnRefuse.setText("取件");
+                    if (orderModel.getStatus().equals("4")) {
+                        btnRefuse.setText("送达");
+                    } else {
+                        btnRefuse.setText("取件");
+                    }
                 }
                 break;
             case 2://已完成
-                btnAccept.setVisibility(View.GONE);
-                btnRefuse.setVisibility(View.GONE);
-                break;
-            case 3://代排
                 btnAccept.setVisibility(View.GONE);
                 btnRefuse.setVisibility(View.GONE);
                 break;
@@ -220,10 +264,18 @@ public class OrderDetailsActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if (ordertype == 1) {
-                    if (orderModel.getStatus().equals("4")) {
-                        takeandda(orderModel.getUuid(), "送达");
+                    if ("3".equals(orderModel.getOtype())) {
+                        if (orderModel.getStatus().equals("4")) {
+                            takeandda(orderModel.getUuid(), "到达");
+                        } else {
+                            takeandda(orderModel.getUuid(), "完成");
+                        }
                     } else {
-                        takeandda(orderModel.getUuid(), "取件");
+                        if (orderModel.getStatus().equals("4")) {
+                            takeandda(orderModel.getUuid(), "送达");
+                        } else {
+                            takeandda(orderModel.getUuid(), "取件");
+                        }
                     }
                 } else if (ordertype == 0) {
                     deleteOrderDialog("接单", orderModel.getUuid());
@@ -241,7 +293,13 @@ public class OrderDetailsActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(OrderDetailsActivity.this, WebviewActivity.class);
-                intent.putExtra("link_url", Const.BASE_URL + Const.route + "?token=" + mSavePreferencesData.getStringData("token") + "&seller_lon=" + orderModel.getSeller_lon() + "&seller_lat=" + orderModel.getSeller_lat() + "&user_lon=" + orderModel.getUser_lon() + "&user_lat=" + orderModel.getUser_lat());
+                if ("3".equals(orderModel.getOtype())) {
+                    intent.putExtra("link_url", Const.BASE_URL + Const.point + "?token=" + mSavePreferencesData.getStringData("token") + "&lon=" + orderModel.getSeller_lon() + "&lat=" + orderModel.getSeller_lat());
+                } else {
+                    intent.putExtra("link_url", Const.BASE_URL + Const.route + "?token=" + mSavePreferencesData.getStringData("token") + "&seller_lon=" + orderModel.getSeller_lon() + "&seller_lat=" + orderModel.getSeller_lat() + "&user_lon=" + orderModel.getUser_lon() + "&user_lat=" + orderModel.getUser_lat());
+                }
+
+
                 intent.putExtra("link_name", "查看路线");
                 startActivity(intent);
             }

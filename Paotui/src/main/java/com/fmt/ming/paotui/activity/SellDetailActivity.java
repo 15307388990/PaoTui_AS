@@ -64,7 +64,6 @@ public class SellDetailActivity extends BaseActivity {
     private String starTimer, endTimer, boxId;
 
     private int pageNumber = 1;
-    private SellDetailListAdapter sellDetailListAdapter;
     private ArrayList<OrderModel> orderModels;
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.CHINA);
     String now = sdf.format(new Date());
@@ -92,7 +91,7 @@ public class SellDetailActivity extends BaseActivity {
         orderModels = new ArrayList<OrderModel>();
       //  sellDetailListAdapter = new SellDetailListAdapter(this, orderModels);
         recycleView.setLayoutManager(new LinearLayoutManager(this));
-        recycleView.setAdapter(sellDetailListAdapter);
+        //recycleView.setAdapter(sellDetailListAdapter);
 
         springView.setHeader(new DefaultHeader(this));
         springView.setFooter(new DefaultFooter(this));

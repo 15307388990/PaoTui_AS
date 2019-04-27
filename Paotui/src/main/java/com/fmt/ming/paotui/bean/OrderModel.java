@@ -62,6 +62,53 @@ public class OrderModel implements Serializable {
     private Object deleted_at;
     private String seller_tel;//商家电话
 
+
+    private String itemtype_id;//物品类型编号
+    private String itemtype_name;// 物品类型名称
+    private String itemprice_id;// 物品价格
+    private String itemprice_name;//物品价格名称
+    private String weight;//物品重量
+
+    public String getItemtype_id() {
+        return itemtype_id;
+    }
+
+    public void setItemtype_id(String itemtype_id) {
+        this.itemtype_id = itemtype_id;
+    }
+
+    public String getItemtype_name() {
+        return itemtype_name;
+    }
+
+    public void setItemtype_name(String itemtype_name) {
+        this.itemtype_name = itemtype_name;
+    }
+
+    public String getItemprice_id() {
+        return itemprice_id;
+    }
+
+    public void setItemprice_id(String itemprice_id) {
+        this.itemprice_id = itemprice_id;
+    }
+
+    public String getItemprice_name() {
+        return itemprice_name;
+    }
+
+    public void setItemprice_name(String itemprice_name) {
+        this.itemprice_name = itemprice_name;
+    }
+
+    public String getWeight() {
+        return weight;
+    }
+
+    public void setWeight(String weight) {
+        this.weight = weight;
+    }
+
     public String getSeller_tel() {
         return seller_tel;
     }
@@ -451,5 +498,6 @@ public class OrderModel implements Serializable {
                 this.deleted_at = deleted_at;
             }
         }
+
     }
 }

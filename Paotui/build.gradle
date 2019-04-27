@@ -4,7 +4,7 @@ android {
         CCH {
             keyAlias 'luoming'
             keyPassword '3544511'
-            storeFile file('/Users/luoming/Desktop/CHjijidao')
+            storeFile file('/Users/luoming/Desktop/Desktop/CHjijidao')
             storePassword '3544511'
         }
     }
@@ -102,6 +102,5 @@ dependencies {
     compile files('libs/TencentLocationSdk_v6.2.5.3_r15b3b3cc_20171103_115903.jar')
     compile files('libs/Msc.jar')
     compile 'jp.wasabeef:recyclerview-animators:1.0.3@aar'
-
     compile project(':volley')
 }

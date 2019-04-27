@@ -345,7 +345,7 @@ public final class R {
         public static final int collapseActionView = 0x7f100042;
         public static final int decor_content_parent = 0x7f10006c;
         public static final int default_activity_button = 0x7f100051;
-        public static final int dialog = 0x7f100135;
+        public static final int dialog = 0x7f10013a;
         public static final int disableHome = 0x7f10001b;
         public static final int edit_query = 0x7f100070;
         public static final int end = 0x7f100032;
