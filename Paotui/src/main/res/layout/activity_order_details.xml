@@ -162,31 +162,38 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="34dp"
-                android:gravity="center_vertical">
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_dtime"
+                android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/tv_timer_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="送达时间："
-                    android:textColor="@color/jiujiujiu"
-                    android:textSize="14sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:gravity="center_vertical">
 
-                <TextView
-                    android:id="@+id/tv_dtime"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="2018：24：00：00"
-                    android:textColor="@color/actionbar_title_color"
-                    android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/tv_timer_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="送达时间："
+                        android:textColor="@color/jiujiujiu"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_dtime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2018：24：00：00"
+                        android:textColor="@color/actionbar_title_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray" />
             </LinearLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1px"
-                android:background="@color/gray" />
 
             <LinearLayout
                 android:id="@+id/ll_started_at"
@@ -225,8 +232,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
-                android:visibility="gone"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:visibility="gone">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -285,13 +292,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="34dp"
                     android:layout_marginLeft="10dp"
-                    android:text="物品信息"
                     android:gravity="center_vertical"
+                    android:text="物品信息"
                     android:textColor="@color/actionbar_title_color" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1px"
                     android:background="@color/gray" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="34dp"
@@ -315,10 +324,12 @@
                         android:textColor="@color/actionbar_title_color"
                         android:textSize="14sp" />
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1px"
                     android:background="@color/gray" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="34dp"
@@ -343,10 +354,12 @@
                         android:textColor="@color/actionbar_title_color"
                         android:textSize="14sp" />
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1px"
                     android:background="@color/gray" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="34dp"
@@ -372,6 +385,7 @@
 
 
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1px"

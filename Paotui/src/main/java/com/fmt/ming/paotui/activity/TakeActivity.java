@@ -112,7 +112,7 @@ public class TakeActivity extends BaseActivity implements ImageWithDelete.ICallB
         } else {
             title.setText("我已" + typestring);
         }
-        tv_information.setText(typestring+"信息");
+        tv_information.setText(typestring + "信息");
         tvText.setText(typestring + "拍照");
         mDialog = new ProgressDialog(this);
         mDialog.setCancelable(false);
@@ -132,7 +132,7 @@ public class TakeActivity extends BaseActivity implements ImageWithDelete.ICallB
                 try {
                     Intent intent = new Intent(TakeActivity.this, MultiImageSelectorActivity.class);
                     // 是否显示拍摄图片
-                    intent.putExtra(MultiImageSelectorActivity.EXTRA_SHOW_CAMERA, false);
+                    intent.putExtra(MultiImageSelectorActivity.EXTRA_SHOW_CAMERA, true);
                     // 最大可选择图片数量
                     intent.putExtra(MultiImageSelectorActivity.EXTRA_SELECT_COUNT, maxSelectedCount - images.size());
                     startActivityForResult(intent, 0);
@@ -158,7 +158,7 @@ public class TakeActivity extends BaseActivity implements ImageWithDelete.ICallB
 
                 } else {
                     //更新订单状态
-                    if (typestring.equals("取件")) {
+                    if (typestring.equals("取件") || typestring.equals("到达")) {
                         update(order_uuid, 2);
                     } else {
                         update(order_uuid, 3);
@@ -263,7 +263,7 @@ public class TakeActivity extends BaseActivity implements ImageWithDelete.ICallB
                         mDialog.dismiss();
                         Log.i("lfq", "图片上传全部完成" + i);
                         //更新订单状态
-                        if (typestring.equals("取件")) {
+                        if (typestring.equals("取件") || typestring.equals("到达")) {
                             update(order_uuid, 2);
                         } else {
                             update(order_uuid, 3);
@@ -329,12 +329,8 @@ public class TakeActivity extends BaseActivity implements ImageWithDelete.ICallB
             String msg = json.optString("msg");
             if (stauts == 0) {
                 finish();
-                if (typestring.equals("取件")) {
-                    Tools.showToast(TakeActivity.this, "取件成功");
+                Tools.showToast(TakeActivity.this, typestring + "成功");
 
-                } else {
-                    Tools.showToast(TakeActivity.this, "成功送达");
-                }
 
             } else {
                 Tools.showToast(this, msg);

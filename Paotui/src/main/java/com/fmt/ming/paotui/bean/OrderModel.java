@@ -59,9 +59,26 @@ public class OrderModel implements Serializable {
     private String status;
     private String created_at;
     private String updated_at;
+    private String started_at;//取件时间
     private Object deleted_at;
     private String seller_tel;//商家电话
+    private String duration;//时长
 
+    public String getDuration() {
+        return duration;
+    }
+
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
+
+    public String getStarted_at() {
+        return started_at;
+    }
+
+    public void setStarted_at(String started_at) {
+        this.started_at = started_at;
+    }
 
     private String itemtype_id;//物品类型编号
     private String itemtype_name;// 物品类型名称

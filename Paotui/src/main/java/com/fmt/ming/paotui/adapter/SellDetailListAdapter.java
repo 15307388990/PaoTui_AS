@@ -89,11 +89,12 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
             holder.tv_uuid.setText(sellBean.getUuid());
             holder.tv_created_at.setText(sellBean.getCreated_at());
             holder.tv_tprice.setText(sellBean.getTprice());
-            holder.tv_dtime.setText(sellBean.getDtime());
+            holder.tv_dtime.setText(sellBean.getStarted_at());
             holder.tv_seller_addr.setText(sellBean.getSeller_addr());
             holder.tv_distance.setText(sellBean.getDistance() + "米");
             holder.tv_user_addr.setText(sellBean.getUser_addr());
             holder.tv_remark.setText(sellBean.getRemark());
+            holder.tv_started_at.setText(sellBean.getDuration()+"小时");
 
             // type=1 显示专送， 当type=2 显示代买，当type=3 显示排队.
             switch (sellBean.getOtype()) {
@@ -106,11 +107,12 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                     holder.ll_user.setVisibility(View.VISIBLE);
                     //文案修改
                     holder.tv_timer_text.setText("取件时间：");
+                    holder.ll_dtime.setVisibility(View.VISIBLE);
                     //显示物品信息
                     holder.ll_items.setVisibility(View.VISIBLE);
                     holder.tv_itemtype_name.setText(sellBean.getItemtype_name());
                     holder.tv_itemprice_name.setText(sellBean.getItemprice_name());
-                    holder.tv_weight.setText(sellBean.getWeight()+"公斤");
+                    holder.tv_weight.setText(sellBean.getWeight() + "公斤");
                     break;
                 case "2":
                     holder.tv_type.setText("代买");
@@ -121,6 +123,8 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                     holder.ll_user.setVisibility(View.VISIBLE);
                     //文案修改
                     holder.tv_timer_text.setText("送达时间：");
+                    holder.ll_dtime.setVisibility(View.GONE);
+
                     //隐藏物品信息
                     holder.ll_items.setVisibility(View.GONE);
                     break;
@@ -133,6 +137,7 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                     holder.ll_user.setVisibility(View.GONE);
                     //文案修改
                     holder.tv_timer_text.setText("排队时间：");
+                    holder.ll_dtime.setVisibility(View.VISIBLE);
                     //隐藏物品信息
                     holder.ll_items.setVisibility(View.GONE);
                     break;
@@ -150,13 +155,13 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                     holder.btn_refuse.setText("接单");
                     break;
                 case 1://配送中
-                    if ("3".equals(sellBean.getOtype())) {
-                        if (sellBean.getStatus().equals("4")) {
+                    if ("3".equals(sellBean.getOtype()) || "2".equals(sellBean.getOtype())) {
+                        holder.btn_accept.setText("联系客户");
+                        if (!sellBean.getStatus().equals("4")) {
                             holder.btn_refuse.setText("到达");
-                            holder.btn_accept.setText("联系客户");
                         } else {
                             holder.btn_refuse.setText("完成");
-                            holder.btn_accept.setText("联系商家");
+
                         }
                     } else {
                         if (sellBean.getStatus().equals("4")) {
@@ -192,12 +197,16 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                             onClickListener.Accept(sellBean.getUuid());
                             break;
                         case 1://配送中
-                            if (sellBean.getStatus().equals("4")) {
+                            if ("3".equals(sellBean.getOtype()) || "2".equals(sellBean.getOtype())) {
+                                //专送 跟代排  都是拨打客户电话
                                 onClickListener.callPhone(sellBean.getUser_mobile());
                             } else {
-                                onClickListener.callPhone(sellBean.getSeller_tel());
+                                if (sellBean.getStatus().equals("4")) {
+                                    onClickListener.callPhone(sellBean.getUser_mobile());
+                                } else {
+                                    onClickListener.callPhone(sellBean.getSeller_tel());
+                                }
                             }
-
                             break;
                         default:
                             break;
@@ -215,8 +224,8 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
                             onClickListener.Refuse(sellBean.getUuid());
                             break;
                         case 1://配送中
-                            if ("3".equals(sellBean.getOtype())) {
-                                if (sellBean.getStatus().equals("4")) {
+                            if ("3".equals(sellBean.getOtype()) || "2".equals(sellBean.getOtype())) {
+                                if (!sellBean.getStatus().equals("4")) {
                                     onClickListener.takeandda(sellBean.getUuid(), "到达");
                                 } else {
                                     onClickListener.takeandda(sellBean.getUuid(), "完成");
@@ -282,8 +291,9 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
         public TextView tv_uuid, tv_tprice, tv_dtime, tv_seller_addr, tv_distance, tv_user_addr, tv_remark, tv_created_at, tv_information, tv_type;
         //拒单 接单
         public Button btn_accept, btn_refuse;
-        public LinearLayout ll_layout, ll_layout2, ll_local, ll_user, ll_distance, ll_started_at;
-        public TextView tv_complete_price, tv_complete_number, tv_timer_text;
+        public LinearLayout ll_layout, ll_layout2, ll_local, ll_user, ll_distance, ll_started_at,ll_dtime;
+        public TextView tv_complete_price, tv_complete_number, tv_timer_text, tv_started_at;
+
         public LinearLayout ll_items;//物品信息
         public TextView tv_itemtype_name, tv_itemprice_name, tv_weight;//物品类型 物品价值  物品重量
 
@@ -310,11 +320,13 @@ public class SellDetailListAdapter extends RecyclerView.Adapter<SellDetailListAd
             ll_distance = (LinearLayout) itemView.findViewById(R.id.ll_distance);
             ll_started_at = (LinearLayout) itemView.findViewById(R.id.ll_started_at);
             tv_timer_text = (TextView) itemView.findViewById(R.id.tv_timer_text);
+            tv_started_at = (TextView) itemView.findViewById(R.id.tv_started_at);
             //物品信息
             tv_itemtype_name = (TextView) itemView.findViewById(R.id.tv_itemtype_name);
             tv_itemprice_name = (TextView) itemView.findViewById(R.id.tv_itemprice_name);
             tv_weight = (TextView) itemView.findViewById(R.id.tv_weight);
             ll_items = (LinearLayout) itemView.findViewById(R.id.ll_items);
+            ll_dtime=(LinearLayout)itemView.findViewById(R.id.ll_dtime);
         }
     }
 }

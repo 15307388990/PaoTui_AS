@@ -3,7 +3,10 @@ package com.fmt.ming.paotui.activity;
 import android.Manifest;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -13,6 +16,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.allenliu.versionchecklib.core.AllenChecker;
+import com.allenliu.versionchecklib.core.MyService;
 import com.allenliu.versionchecklib.core.VersionParams;
 import com.allenliu.versionchecklib.core.http.HttpParams;
 import com.allenliu.versionchecklib.core.http.HttpRequestMethod;
@@ -23,6 +27,7 @@ import com.fmt.ming.paotui.dialog.CustomDialogActivity;
 import com.fmt.ming.paotui.fragment.MainFragment;
 import com.fmt.ming.paotui.fragment.MineFragment;
 import com.fmt.ming.paotui.service.LocationService;
+import com.fmt.ming.paotui.service.MyReceiver;
 import com.fmt.ming.paotui.service.VersionService;
 import com.fmt.ming.paotui.utils.ParamTools;
 import com.fmt.ming.paotui.utils.Tools;
@@ -57,6 +62,7 @@ public class TabActivity extends BaseActivity {
     private String mall_name;//版本名称
     Runnable runnable;
     private long mExitTime;
+    private BroadcastMain myService;
 
 
     @Override
@@ -75,8 +81,36 @@ public class TabActivity extends BaseActivity {
         //注册别名
         JPushInterface.setAlias(this, 1, "fmt_" + storeBean.getId());
         setStyleCustom();
+        JPushInterface.resumePush(this);
+        myService = new BroadcastMain();
     }
 
+    public class BroadcastMain extends BroadcastReceiver {
+        //必须要重载的方法，用来监听是否有广播发送
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (mMianFragment != null) {
+                MainFragment mainFragment = (MainFragment) mMianFragment;
+                mainFragment.refresh();
+            }
+        }
+    }
+
+    @Override
+    protected void onStart() {
+        //注册广播接收器
+        IntentFilter filter = new IntentFilter();
+        filter.addAction("com.fmt.ming.paotui.activity.TabActivity");
+        registerReceiver(myService, filter);
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        //取消广播接收器
+        unregisterReceiver(myService);
+        super.onStop();
+    }
 
     /**
      * 设置通知栏样式 - 定义通知栏Layout
@@ -259,5 +293,6 @@ public class TabActivity extends BaseActivity {
         super.onActivityResult(requestCode, resultCode, data);
         mMinFragment.onActivityResult(requestCode, resultCode, data);
     }
+
 
 }

@@ -3,6 +3,7 @@ package com.fmt.ming.paotui.base;
 import android.annotation.SuppressLint;
 import android.app.Application;
 import android.content.Context;
+import android.os.StrictMode;
 
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
@@ -37,6 +38,12 @@ public class MianApplication extends Application {
         initImageLoader(getApplicationContext());
         JPushInterface.setDebugMode(true);    // 设置开启日志,发布时请关闭日志
         JPushInterface.init(this);            // 初始化 JPush
+        /**
+         *    适配7。0拍照 url 不能用的问题
+         */
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+        StrictMode.setVmPolicy(builder.build());
+        builder.detectFileUriExposure();
     }
 
 

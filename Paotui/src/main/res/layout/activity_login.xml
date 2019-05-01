@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@color/white"
     android:orientation="vertical">
 
 
@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="64dp"
             android:src="@drawable/login_logo" />
 
         <ImageView
@@ -24,7 +24,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/margin_20"
-            android:layout_marginTop="20dp"
             android:src="@drawable/login_title" />
 
         <LinearLayout
@@ -99,7 +98,6 @@
                     android:hint="请输入密码"
                     android:inputType="textPassword"
                     android:maxLength="20"
-
                     android:paddingLeft="@dimen/divider_height_10"
                     android:singleLine="true"
                     android:textColorHint="#d2d2d7"
@@ -114,9 +112,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/login_btn"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_ok_bg"
             android:gravity="center"
             android:text="登录"
             android:textColor="@color/white"
@@ -140,18 +138,18 @@
 
             <TextView
                 android:id="@+id/tv_forgot"
-                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
-                android:layout_marginBottom="@dimen/divider_height_10"
+                android:layout_alignParentBottom="true"
                 android:layout_marginRight="@dimen/divider_height_10"
-                android:drawablePadding="@dimen/divider_height_10"
+                android:layout_marginBottom="@dimen/divider_height_10"
                 android:drawableRight="@drawable/login_icon_ming_arrow"
+                android:drawablePadding="@dimen/divider_height_10"
                 android:text="忘记密码"
                 android:textColor="#cdce57"
-                android:textSize="13sp" />
+                android:textSize="13sp"
+                android:visibility="gone" />
         </RelativeLayout>
     </LinearLayout>
 

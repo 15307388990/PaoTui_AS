@@ -104,6 +104,10 @@ public class OrderDetailsActivity extends BaseActivity {
     TextView tv_itemprice_name;//物品价值
     @Bind(R.id.tv_weight)
     TextView tv_weight; //物品重量
+    @Bind(R.id.tv_started_at)
+    TextView tv_started_at;//排队时长
+    @Bind(R.id.ll_dtime)
+    LinearLayout ll_dtime;
 
     private String order_uuid;
     private OrderModel orderModel;
@@ -142,7 +146,8 @@ public class OrderDetailsActivity extends BaseActivity {
         tvUuid.setText(orderModel.getUuid());
         tvCreatedAt.setText(orderModel.getCreated_at());
         tvTprice.setText(orderModel.getTprice());
-        tvDtime.setText(orderModel.getDtime());
+        tvDtime.setText(orderModel.getStarted_at());
+        tv_started_at.setText(orderModel.getDuration() + "小时");
         tvSellerAddr.setText(orderModel.getSeller_addr());
         tvDistance.setText(orderModel.getDistance() + "米");
         tvUserAddr.setText(orderModel.getUser_addr());
@@ -160,11 +165,12 @@ public class OrderDetailsActivity extends BaseActivity {
                 ll_user.setVisibility(View.VISIBLE);
                 //文案修改
                 tv_timer_text.setText("取件时间：");
+                ll_dtime.setVisibility(View.VISIBLE);
                 //显示物品信息
                 ll_items.setVisibility(View.VISIBLE);
                 tv_itemtype_name.setText(orderModel.getItemtype_name());
                 tv_itemprice_name.setText(orderModel.getItemprice_name());
-                tv_weight.setText(orderModel.getWeight()+"公斤");
+                tv_weight.setText(orderModel.getWeight() + "公斤");
                 break;
             case "2":
                 tv_type.setText("代买");
@@ -175,6 +181,7 @@ public class OrderDetailsActivity extends BaseActivity {
                 ll_user.setVisibility(View.VISIBLE);
                 //文案修改
                 tv_timer_text.setText("送达时间：");
+                ll_dtime.setVisibility(View.GONE);
                 //隐藏物品信息
                 ll_items.setVisibility(View.GONE);
                 break;
@@ -187,6 +194,7 @@ public class OrderDetailsActivity extends BaseActivity {
                 ll_user.setVisibility(View.GONE);
                 //文案修改
                 tv_timer_text.setText("排队时间：");
+                ll_dtime.setVisibility(View.VISIBLE);
                 //隐藏物品信息
                 ll_items.setVisibility(View.GONE);
                 break;
@@ -223,17 +231,20 @@ public class OrderDetailsActivity extends BaseActivity {
                 btnRefuse.setText("接单");
                 break;
             case 1://配送中
-                btnAccept.setText("联系商家");
-                if ("3".equals(orderModel.getOtype())) {
-                    if (orderModel.getStatus().equals("4")) {
+
+                if ("3".equals(orderModel.getOtype()) || "2".equals(orderModel.getOtype())) {
+                    if (!orderModel.getStatus().equals("4")) {
                         btnRefuse.setText("到达");
                     } else {
                         btnRefuse.setText("完成");
                     }
+                    btnAccept.setText("联系客户");
                 } else {
                     if (orderModel.getStatus().equals("4")) {
                         btnRefuse.setText("送达");
+                        btnAccept.setText("联系客户");
                     } else {
+                        btnAccept.setText("联系商家");
                         btnRefuse.setText("取件");
                     }
                 }
@@ -249,10 +260,14 @@ public class OrderDetailsActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if (ordertype == 1) {
-                    if (orderModel.getStatus().equals("4")) {
+                    if ("3".equals(orderModel.getOtype()) || "2".equals(orderModel.getOtype())) {
                         callPhone(orderModel.getUser_mobile());
                     } else {
-                        callPhone(orderModel.getSeller_tel());
+                        if (orderModel.getStatus().equals("4")) {
+                            callPhone(orderModel.getUser_mobile());
+                        } else {
+                            callPhone(orderModel.getSeller_tel());
+                        }
                     }
                 } else if (ordertype == 0) {
                     deleteOrderDialog("拒单", orderModel.getUuid());
@@ -264,8 +279,8 @@ public class OrderDetailsActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 if (ordertype == 1) {
-                    if ("3".equals(orderModel.getOtype())) {
-                        if (orderModel.getStatus().equals("4")) {
+                    if ("3".equals(orderModel.getOtype()) || "2".equals(orderModel.getOtype())) {
+                        if (!orderModel.getStatus().equals("4")) {
                             takeandda(orderModel.getUuid(), "到达");
                         } else {
                             takeandda(orderModel.getUuid(), "完成");
@@ -332,7 +347,7 @@ public class OrderDetailsActivity extends BaseActivity {
             }
             startActivity(intent);
         } else {
-            Tools.showToast(OrderDetailsActivity.this, "没有提供手机");
+            Tools.showToast(OrderDetailsActivity.this, "没有提供手机号码");
         }
 
     }

@@ -6,6 +6,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
@@ -38,6 +39,7 @@ public class MyReceiver extends BroadcastReceiver {
     public SavePreferencesData mSavePreferencesData;
     MianApplication application;
 
+
     @Override
     public void onReceive(Context context, Intent intent) {
         this.mContext = context;
@@ -62,6 +64,8 @@ public class MyReceiver extends BroadcastReceiver {
                     String uuid = massagejs.getString("uuid");
                     createNotificationMessge(uuid);
                 } else {
+                    Intent intent2=new Intent("com.fmt.ming.paotui.activity.TabActivity");
+                    mContext.sendBroadcast(intent2);
                     createNotificationMessge();
                 }
 
@@ -107,13 +111,14 @@ public class MyReceiver extends BroadcastReceiver {
                 .setSmallIcon(R.drawable.ic_launcher)
                 .setContentTitle("您有新的订单")
                 .setAutoCancel(true)
+                .setOnlyAlertOnce(false)
+                .setDefaults(Notification.DEFAULT_VIBRATE)
                 .setWhen(System.currentTimeMillis())
                 .setSound(parse).setContentIntent(paddingIntent);
         Notification notification = builder.build();
-
         int score = application.getScore();
         notificationManager.notify(score, notification);
-        application.setScore(score+1);
+        application.setScore(score + 1);
     }
 
     private void createNotificationMessge(String uuid) {
@@ -130,12 +135,15 @@ public class MyReceiver extends BroadcastReceiver {
                 .setSmallIcon(R.drawable.ic_launcher)
                 .setContentTitle("您有新的消息")
                 .setAutoCancel(true)
+                .setOnlyAlertOnce(false)
                 .setWhen(System.currentTimeMillis())
                 .setSound(parse).setContentIntent(paddingIntent);
         Notification notification = builder.build();
         int score = application.getScore();
         notificationManager.notify(score, notification);
-        application.setScore(score+1);
+        application.setScore(score + 1);
+
     }
+
 
 }

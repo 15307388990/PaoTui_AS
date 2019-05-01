@@ -63,6 +63,7 @@ android {
             // 进行混淆
             minifyEnabled false
             signingConfig signingConfigs.CCH
+            debuggable true
         }
         debug {
             signingConfig signingConfigs.CCH

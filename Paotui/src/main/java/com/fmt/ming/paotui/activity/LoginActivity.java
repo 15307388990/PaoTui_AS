@@ -35,6 +35,7 @@ import java.util.Map;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import cn.jpush.android.api.JPushInterface;
 
 public class LoginActivity extends BaseActivity {
 
@@ -57,6 +58,9 @@ public class LoginActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //停止推送
+        JPushInterface.stopPush(this);
+
         StatusBarCompat.setStatusBarColor(this, getResources().getColor(R.color.darkgray));
         Tools.webacts.add(this);
         ButterKnife.bind(this);

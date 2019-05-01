@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -21,6 +22,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
+import com.allenliu.versionchecklib.core.MyService;
 import com.fmt.ming.paotui.R;
 import com.fmt.ming.paotui.activity.LoginActivity;
 import com.fmt.ming.paotui.activity.OrderDetailsActivity;
@@ -132,7 +134,7 @@ public class MainFragment extends BaseFragment implements OnClickListener, SellD
 
 
 
-    /* 获取设备列表 */
+    /* 获取数据 */
 
     public void orderList() {
         Map<String, String> map = new HashMap<>();
@@ -164,6 +166,16 @@ public class MainFragment extends BaseFragment implements OnClickListener, SellD
         loading();
     }
 
+    /**
+     * 广播刷新
+     */
+    public void refresh() {
+        rb_new.setChecked(true);
+        rstatus = 0;
+        pageNumber = 1;
+        orderList();
+    }
+
     @Override
     public void onResponse(String response, String url) {
         dismissLoading();
@@ -175,11 +187,12 @@ public class MainFragment extends BaseFragment implements OnClickListener, SellD
                 if (url.contains(Const.orderlist)) {
                     JSONObject jsonObject = json.optJSONObject("data");
                     String result = jsonObject.optString("data");
+                    int total=jsonObject.getInt("total");
                     ArrayList<OrderModel> list = (ArrayList<OrderModel>) JSON.parseArray(result, OrderModel.class);
                     if (rstatus == 0) {
                         if (list.size() > 0) {
                             rl_layout.setVisibility(View.VISIBLE);
-                            tv_number.setText(list.size() + "");
+                            tv_number.setText(total+ "");
                         } else {
                             rl_layout.setVisibility(View.GONE);
                         }
@@ -285,7 +298,7 @@ public class MainFragment extends BaseFragment implements OnClickListener, SellD
             intent.setData(data);
             startActivity(intent);
         } else {
-            Tools.showToast(getActivity(), "改商家没有提供手机");
+            Tools.showToast(getActivity(), "没有提供手机号码");
         }
 
     }
